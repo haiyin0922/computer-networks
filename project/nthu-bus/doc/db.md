@@ -1,0 +1,12 @@
+```sql
+CREATE TABLE IF NOT EXISTS "bushistory" (
+	"id"	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	"CarNo"	TEXT,
+	"GPSTime"	TEXT,
+	"PX"	REAL,
+	"PY"	REAL,
+	"Speed"	INTEGER,
+	"Angle"	INTEGER,
+	"Driver"	TEXT
+)
+```
